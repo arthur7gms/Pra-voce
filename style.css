@@ -8,6 +8,7 @@ body{
     box-sizing: border-box;
     background-image: url(images/Wallpaper.png);
     background-position: left center;
+    background-size: auto;
 }
 header{
     font-family: "Montserrat", serif;
