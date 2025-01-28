@@ -7,6 +7,7 @@
 body{
     box-sizing: border-box;
     background-image: url(images/Wallpaper.png);
+    background-position: left center;
 }
 header{
     font-family: "Montserrat", serif;
@@ -88,5 +89,8 @@ main{
 @media (max-width: 768px) {
     .geral{
         flex-direction: column;
+    }
+    body{
+        background-position: center center;
     }
 }
