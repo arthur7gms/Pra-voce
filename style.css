@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+*{
+    padding: 0 ;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    background-image: url(images/Wallpaper.png);
+}
+header{
+    font-family: "Montserrat", serif;
+    font-size: 1.1em;
+    margin: 15px;
+}
+.imagem_fala{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#imagem_coracao{
+    width: 100px;
+    height: 100px;
+}
+main{
+    font-family: "Montserrat", serif;
+}
+.geral{
+    display: flex;
+    gap: 100px;
+    margin: 50px 50px 0px 50px;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.titulos > h1{
+    font-size: 50px;
+    font-family: "Delius", serif;
+}
+.calendario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.calendario > h3{
+    font-size: 40px;
+    font-family: "Delius", serif;
+}
+#imagem_calendario{
+    width: 60px;
+    height: 60px;
+}
+.voce{
+    color: #EC5569;
+    font-weight: bold;
+}
+.texto{
+    font-size: 20px;
+    margin: 10px;
+}
+#nossa_foto{
+    width: 300px;
+    height: 400px;
+}
+.quadro{
+    border: 1px solid black;
+    display: flex;
+    flex: row;
+    width: 300px;
+    height: 80px;
+    border-radius: 25px;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 50px;
+}
+#spotify{
+    width: 70px;
+    height: 70px;
+}
+.texto_spotify{
+    font-family: "Montserrat", serif;
+}
+.texto_spotify > a{
+    text-decoration: none;
+}
